@@ -1,0 +1,9 @@
+<div class="classes">
+    <p>{{characterClass[routeId]}}</p>
+    <p>{{routeId}}</p>
+    <ul>
+        <li><a routerLink="/class/{{routeId}}/subs" routerLinkActive="active"> Show Subs </a></li>
+    </ul>
+    <router-outlet></router-outlet>
+    <button (click)="goHome()"> HOME </button>
+</div>
